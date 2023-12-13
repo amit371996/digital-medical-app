@@ -1,0 +1,92 @@
+
+a:hover{ color:#D34C4F;text-decoration: none;}
+p { margin: 0; padding: 10px 0; color:#282C36; font-size: 16px;line-height: 30px;font-weight: 400; }
+body{font-family: 'Poppins'; line-height: 34px;background:#FFFFFF;
+    ;}
+header { position: fixed; left: 0; top: 0; width: 100%;z-index:9999;	transition: all ease .4s }
+h1, .h1 { font-size: 45px; margin: 10px 0; font-family: 'Poppins'; font-weight: 700; color: #282C36;line-height: 24px;  }
+h2, .h2 { font-family: 'Poppins';font-style: normal;font-weight: 800; font-size: 40px; text-transform: none;line-height:40px; color:#27292D; letter-spacing: 2px; }
+h3, .h3 { font-size: 25px ; font-family: 'Poppins';color: #282C36; letter-spacing:2;line-height: 38px; }
+h4, .h4 { font-size: 21px; margin: 10px 0;font-family: 'Poppins'; font-weight: 400; color: #282C36;line-height: 36px;  }
+h5, .h5 { font-size: 20px; margin: 10px 0;font-family: 'Poppins'; color: #282C36;line-height: 24px;  }
+h6, .h6 { font-size: 16px; margin: 10px 0;font-family: 'Poppins'; font-weight: normal; color: #282C36;line-height: 30px;   }
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background: #DD6362 !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border: 0 !important;
+}
+.makeStyles-lists-6 span{color: #fff !important;font-size: 14px !important;font-weight: 400 !important;}
+.drawebx .css-1r9jet7 button{left: 25px !important;background: #fff !important;color: #DD6362 !important;margin: 0 !important;}
+.makeStyles-header-35 .css-rnyayd-MuiButtonBase-root-MuiIconButton-root{left: -47px !important; background: #fff !important; columns:#DD6362 !important;position: absolute !important;}
+.makeStyles-header-11 .css-rnyayd-MuiButtonBase-root-MuiIconButton-root{left: -47px !important; background: #fff !important; columns:#DD6362 !important;position: absolute !important;}
+.circle {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255 255 255 / 30%);; 
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+
+  }
+.circle .side-logoutbtn{    background: #fff;
+   border-radius: 50px !important;
+   padding: 12px 25px !important;
+   display: block !important;
+   font-size: 14px !important;
+   color: #000000 !important;
+   font-weight: 500 !important;
+   text-decoration: none !important;}
+   .circle .side-logoutbtn:hover{background: #fff;color: #000000;}
+ 
+ .serchbarbx{    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    justify-content: end;
+}
+ .serchbarbx .css-1dezln7-MuiInputBase-root-MuiOutlinedInput-root:focus{
+    border: 1px solid #DD6362;
+    
+ }
+
+ .serchbarbx button{position: relative !important;left: auto !important;background: none !important;} 
+ .serchbarbx button span.css-1c32n2y-MuiBadge-root{color: none !important;} 
+ .inpitserach input{
+   border: 1px solid #868686;
+   border-radius: 50px;
+    font-size: 14px;
+    color:#868686 ;
+ }
+ .searchicon{color: #868686;}
+.serchbarbx .css-1iz4iln{top: 3px;}
+.navmore{color: #fff;}
+.menuicon{min-width: 40px !important;}
+.logouticon{
+  display: flex;
+    /* margin: 10px; */
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 100%;
+    transition: ease-in-out;
+}
+.side-logoutbtn2{
+  width: 40px;
+    height: 41px;
+    padding: 0;
+    transition: ease-in-out;
+}
+.headet_title{width: 30%;}
+.MuiCollapse-wrapperInner ul  a.listsubmenu{padding: 0 0 0 55px !important;position: relative;}
+.MuiCollapse-wrapperInner ul  a .menuicon{min-width: 30px !important;color: #fff;}
+
+

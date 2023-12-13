@@ -1,0 +1,574 @@
+.add_record_schedule {
+    justify-content: end;
+}
+
+.tablebox2 button.add_record_schedule {
+    border-radius: 50px;
+    background: #8EC9DA;
+    color: #fff;
+    border: 1px solid #8EC9DA;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 45px;
+    margin: 0 15px;
+}
+
+/* From Right */
+.tablebox2 table tr {
+    cursor: initial;
+}
+
+.tablebox2 table tr td button.btnactiveflag {
+    background: #0D6DAE;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+}
+
+.tablebox2 table tr td .visibleicon {
+    color: #5C27FE;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.tablebox2 table tr td .editicon {
+    color: #282C36;
+    font-weight: 400;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.tablebox2 table tr td .deleteicon {
+    color: #B7B7B7 !important;
+    font-weight: 400;
+    vertical-align: super;
+}
+
+.actionbutton {
+    min-width: 30px !important;
+}
+
+.tablebox2 table td {
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding: 6px;
+    background: #fff;
+    border: none !important;
+    background-color: #fff;
+}
+
+.tablebox2 table th {
+    color: rgb(0 0 0 / 75%);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px;
+    border: none !important;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.tablebox2 table tr td .MuiCheckbox-root {
+    color: #0D6DAE;
+}
+
+.tablebox2 .css-sq9qdz .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 40px !important;
+    color: #8F8F8F !important;
+    border-radius: 50px !important;
+    background: #E4E4E4 !important;
+}
+
+.tablebox2 input {
+    font-size: 12px !important;
+    color: #282C36 !important;
+}
+
+.tablebox2 .css-sq9qdz {
+    align-items: center !important;
+    justify-content: end !important;
+}
+
+.schedletable {
+    min-width: 80%;
+}
+
+.css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #8F8F8F !important;
+    border-width: 1px !important;
+    outline: none !important;
+}
+
+.tablebox2 .css-sq9qdz .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border: none !important;
+    border-color: none !important;
+}
+
+.css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border-color: #8F8F8F !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: #8F8F8F !important;
+    outline: none !important;
+}
+
+.tablebox2 table thead {
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.tablebox2 table tr th .css-1f2qhs8 {
+    white-space: normal;
+}
+
+.tablebox2 table .css-1w86f15 {
+    justify-content: center;
+}
+
+.addlibrarytable .css-vv34gr-MuiTableRow-root {
+    background: #0D6DAE !important;
+    color: #fff;
+}
+
+.addlibrarytable table tr.css-vv34gr-MuiTableRow-root th {
+    color: #fff;
+}
+
+.addlibrarytable .css-hv6h5i-MuiButtonBase-root-MuiCheckbox-root {
+    color: #fff;
+}
+
+.addlibrarytable table td {
+    border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.addlibrarytable .css-sq9qdz {
+    padding: 20px 20px !important;
+}
+
+.addlibrarytable .css-sq9qdz .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root {
+    background: #fff !important;
+    color: #0D6DAE !important;
+}
+
+.addlibrarytable .MuiOutlinedInput-notchedOutline {
+    color: #0D6DAE !important;
+    border-color: #0D6DAE !important;
+    outline: none !important;
+}
+
+.addlibrarytable .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #0D6DAE !important;
+    border-width: 1px !important;
+    outline: none !important;
+}
+
+.addlibrarytable .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border-color: #0D6DAE !important;
+}
+.addlibrarytable input {
+    font-size: 12px !important;
+    color: #0D6DAE !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+/********************schedule_editform css*******************/
+.schedule_editform {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule_editform .inputlevel {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    white-space: normal;
+    color: rgba(40, 44, 54, 1);
+    font-size: 16px;
+    align-items: center;
+    height: 35px;
+    position: relative;
+}
+
+.schedule_editform input,
+textarea {
+    font-size: 14px !important;
+}
+
+.schedule_editform .inputlevel::after {
+    content: ':';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s ease all;
+}
+
+.makeStyles-track-18 {
+    opacity: 1 !important;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    border-radius: 13px !important;
+    transition: 0.3s ease all;
+
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background: linear-gradient(90deg, #006BAD -7.89%, #4FA7CF 59.94%, #C2FDFF 159.65%);
+}
+
+.schedule_editform .css-1yjjitx-MuiSwitch-track {
+    background: rgba(166, 166, 166, 1);
+}
+
+.makeStyles-right-23 {
+    left: 45px !important;
+    transition: 0.3s ease all;
+}
+
+.makeStyles-root-15 {
+    width: 114px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    border-radius: 50px !important;
+    transition: 0.3s ease all;
+}
+
+.makeStyles-label-21 {
+    color: #fff !important;
+    z-index: 1 !important;
+    position: absolute !important;
+    font-size: 12px !important;
+    user-select: none !important;
+    pointer-events: none !important;
+    transition: 0.3s ease all;
+}
+
+.makeStyles-switchBase-16.makeStyles-checked-19 {
+    color: #fff !important;
+    transform: translate(34px, 1px) !important;
+    width: 100% !important;
+    transition: 0.3s ease all;
+}
+
+.makeStyles-switchBase-16 {
+    padding: 1px !important;
+}
+
+.makeStyles-left-22 {
+    left: 6px;
+    color: #fff !important;
+    transition: 0.3s ease all;
+}
+
+.css-jsexje-MuiSwitch-thumb {
+    width: 32px !important;
+    height: 32px !important;
+    transform: translate(2px, 2px) !important;
+    transition: 0.3s ease all;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase {
+    padding: 1px !important;
+}
+
+.css-1yjjitx-MuiSwitch-track {
+    opacity: 1 !important;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    border-radius: 13px !important;
+    transition: 0.3s ease all;
+}
+
+.css-julti5-MuiSwitch-root {
+    width: 114px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    border-radius: 50px !important;
+    transition: 0.3s ease all;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: #fff !important;
+    transform: translate(34px, 1px) !important;
+    width: 100% !important;
+    transition: 0.3s ease all;
+}
+
+.css-1job0k9-MuiTypography-root {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+.makeStyles-thumb-17 {
+    width: 32px !important;
+    height: 32px !important;
+    transform: translate(2px, 2px) !important;
+    transition: 0.3s ease all;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase:hover {
+    background: none !important;
+}
+
+.schedule_editform .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(232, 232, 232, 1) !important;
+    border-width: 1px !important;
+    outline: none !important;
+}
+
+.schedule_editform .css-sq9qdz .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border: none !important;
+    border-color: none !important;
+}
+
+.schedule_editform .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border-color: rgba(232, 232, 232, 1) !important;
+}
+
+.schedule_editform .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(232, 232, 232, 1) !important;
+    outline: none !important;
+}
+
+.viewCancel.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background: #DD6362;
+    color: #fff;
+}
+
+.viewsave.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background: #DD6362;
+    color: #282C36;
+}
+
+.viewCancel.css-ip0s1z-MuiButtonBase-root-MuiButton-root:active {
+    background: #DD6362;
+    color: #fff;
+}
+
+/********************Tab Panel css*******************/
+.tabtopbx .css-rurhcz-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #DD6362;
+}
+
+.tablebxedit thead tr th {
+    background-color: #ECECEC !important;
+    color: #282C36;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tablebxedit tbody tr td {
+    color: #5B5B5B;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tablebxedit tbody tr th {
+    color: #5B5B5B;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sch_edit_tabpan {
+    box-shadow: none !important;
+}
+
+.Tabtitlebx.css-7aroya-MuiTypography-root {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.tabname_title.css-rurhcz-MuiButtonBase-root-MuiTab-root {
+    font-size: 16px;
+    color: #282C36;
+}
+
+.sch_edit_tabpan {
+    padding: 10px 40px !important;
+}
+
+/********************** Schedule View CSS *****************/
+.viewCancel.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid;
+    color: #282C36;
+    border-radius: 50px;
+    border-color: #DD6362;
+    padding: 5px 30px;
+    margin-right: 30px;
+}
+
+.viewsave.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    background: #BFBFBE !important;
+    border-color: #BFBFBE;
+}
+
+.view_cancelbx {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 30px;
+}
+
+.addsave {
+    background: #D65452 !important;
+    color: #fff !important;
+    border-color: #D65452;
+}
+
+.my-input {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4px 0 5px;
+    padding-top: 1px;
+    position: relative;
+    border-radius: 4px;
+    padding: 8.5px 14px;
+    resize: none;
+    border: 1px solid #E8E8E8;
+    overflow: hidden;
+}
+
+.my-input:focus-visible {
+    border: 1px solid #E8E8E8;
+    outline: none;
+}
+
+/************add client csss****************/
+.add_clientbx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schaddbtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    color: #fff;
+    display: block;
+    background: #DD6362;
+    padding: 5px 40px;
+    border: 1px solid;
+    border-color: #DD6362;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.schaddbtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background: #fff;
+    color: #DD6362;
+}
+
+.adddropbx .css-1b4l77s-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    margin-top: 0 !important;
+    color: #B7B7B7;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.adddropbx .css-el5xv0-MuiFormLabel-root-MuiInputLabel-root {
+    font-size: 16px;
+    color: #282C36;
+}
+
+.adddropbx .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #282C36;
+    font-size: 16px;
+}
+
+.dropitembx.css-ha9bbd-MuiButtonBase-root-MuiMenuItem-root {
+    color: #282C36;
+    font-size: 16px !important;
+}
+
+.adddropbx .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(232, 232, 232, 1) !important;
+    border-width: 1px !important;
+    outline: none !important;
+}
+
+.adddropbx .css-sq9qdz .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border: none !important;
+    border-color: none !important;
+}
+
+.adddropbx .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border-color: rgba(232, 232, 232, 1) !important;
+}
+
+.adddropbx .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(232, 232, 232, 1) !important;
+    outline: none !important;
+}
+
+.adddropbx .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #DD6362 !important;
+    box-shadow: 4.224999904632568px 4.224999904632568px 8.449999809265137px 0px #C7CBD7 inset !important;
+    width: 25px;
+    height: 25px;
+
+}
+
+button.addbtnmodl {
+    background: #DD6362;
+    padding: 6px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-color: #DD6362;
+    border-radius: 50px;
+    display: block;
+}
+
+.addbtnmodl.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background: #DD6362;
+}
+
+.addbtnmodl.css-ip0s1z-MuiButtonBase-root-MuiButton-root:active {
+    background: #DD6362;
+    color: #DD6362;
+}
+
+
+/*********************** Add Library Css**************/
+.addlibrary.css-1b3t5yo-MuiButtonBase-root-MuiButton-root {
+    background: #0D6DAE;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: #006BAD;
+    border-radius: 50px;
+    display: block;
+    font-weight: 500;
+}
+
+.addlibrary.css-1b3t5yo-MuiButtonBase-root-MuiButton-root:hover {
+    background: #fff;
+    border-color: #0D6DAE;
+    color: #0D6DAE;
+}

@@ -1,0 +1,128 @@
+.card_bx {
+    position: relative;
+    border-radius: 5px;
+    padding: 40px 45px 20px 20px;
+    min-height: 185px;
+}
+
+.iconbx {
+    position: absolute;
+    top: -28px;
+    background: #fff;
+    text-align: center;
+    left: 20px;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.cardbxbackground1 .iconbx {
+    border: 1px solid #DD6362;
+}
+
+.cardbxbackground2 .iconbx {
+    border: 1px solid #DD6362;
+}
+
+.cardbxbackground3 .iconbx {
+    border: 1px solid #32ABE4;
+}
+
+.cardbxbackground4 .iconbx {
+    border: 1px solid #12BA76;
+}
+
+.cardtext p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardtext2 p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.cardbxbackground1 {
+    background: linear-gradient(109.97deg, #3D45CA 2.25%, rgba(61, 69, 202, 0.49) 100%);
+}
+
+.cardbxbackground2 {
+    background: linear-gradient(109.97deg, #DD6362 2.25%, rgba(221, 99, 98, 0.49) 100%);
+}
+
+.cardbxbackground3 {
+    background: linear-gradient(109.97deg, #32ABE4 2.25%, rgba(50, 171, 228, 0.49) 100%);
+}
+
+.cardbxbackground4 {
+    background: linear-gradient(109.97deg, #12BA76 2.25%, rgba(18, 186, 118, 0.49) 100%);
+}
+
+.cardbxbackground1::before {
+    content: '';
+    background: url('../../assets/image/icons/pt_back_contact.png') no-repeat center center/cover;
+    opacity: 1;
+    bottom: 10px;
+    right: 10px;
+    width: 82px;
+    height: 88px;
+    position: absolute;
+
+}
+
+.cardbxbackground2::before {
+    content: '';
+    background: url('../../assets/image/icons/pt_back_schedule_1.png') no-repeat center center/cover;
+    opacity: 1;
+    bottom: 6px;
+    right: 10px;
+    width: 95px;
+    height: 88px;
+    position: absolute;
+}
+
+.cardbxbackground3::before {
+    content: '';
+    background: url('../../assets/image/icons/pt_back_chart.png') no-repeat center center/cover;
+    opacity: 1;
+    bottom: 10px;
+    right: 12px;
+    width: 100px;
+    height: 88px;
+    position: absolute;
+}
+
+.cardbxbackground4::before {
+    content: '';
+    background: url('../../assets/image/icons/pt_back_visit.png') no-repeat center center/cover;
+    opacity: 1;
+    bottom: 10px;
+    right: 10px;
+    width: 109px;
+    height: 88px;
+    position: absolute;
+}
+.tablebox table td{color: #000000;font-weight: 400;font-size: 13px;text-align:left;padding: 12px;background: #fff;border: none !important;background-color: #fff;}
+.tablebox table th{color: #000000;font-weight: 500;font-size: 14px;text-align: left;padding: 12px;border: none !important;}
+.tablebox table td .btnstatus{background: #DD6362;color: #fff;text-transform: uppercase;cursor: pointer;text-align: center;border-radius: 50px;font-size: 14px;font-weight: 400;padding: 5px 30px;}
+.datatable_main{background-color: rgba(34, 54, 101, 0.05) !important; margin: 50px 0;}
+.datatable_main .custom-table{background: rgba(34, 54, 101, 0.05) !important;}
+.tablebox table td .mailicon{vertical-align: inherit;margin-right: 5px;}
+.tablebox table td .daterange{vertical-align: inherit;margin-right: 5px;}
+.tablebox table td img{display: inline-block;vertical-align: middle;margin-right: 10px;}
+.tablepagination p{color: #000000;font-size: 13px;}
+.tablepagination{box-shadow: none;}
+.css-1mxz8qt-MuiPaper-root{box-shadow: none;}
+.tablepagination .css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled{color:rgba(221, 99, 98, 0.5) !important;}
+.tablepagination .MuiTablePagination-actions .css-zylse7-MuiButtonBase-root-MuiIconButton-root{color: #DD6362;}
+.custom-sort-cell .MuiTableSortLabel-icon {
+    display: none;
+  }
+

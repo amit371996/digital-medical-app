@@ -1,0 +1,348 @@
+.btnhub.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    padding: 6px 30px;
+    color: #0D6DAE;
+    background: #fff;
+    border-color: #0D6DAE;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    line-height: 24px;
+    border-radius: 50px;
+}
+
+.caretablebox .css-19kzrtu {
+    padding: 0 !important;
+}
+
+.selectintable {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+.addptnote.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    background-color: #8EC9DA;
+    color: #282C36;
+    font-size: small;
+    padding: 6px 30px;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #8EC9DA;
+}
+
+.caremailbtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    color: #666666;
+    font-size: 14px;
+}
+
+.caremailbtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root.active {
+    color: #D34C4F;
+}
+
+.addptnote.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #fff;
+    color: #8EC9DA;
+    font-size: small;
+    padding: 6px 30px;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #8EC9DA;
+}
+
+
+/****************editor css***********/
+.ql-editor {
+    background: rgb(241, 241, 241) !important;
+}
+
+.ql-container.ql-snow {
+    border: none !important;
+    height: 200px;
+}
+
+.ql-toolbar.ql-snow {
+    border: none !important;
+}
+
+.emaildialog .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(232, 232, 232, 1) !important;
+    outline: none !important;
+}
+
+.emaildialog input {
+    font-size: 14px !important;
+    background: rgb(241, 241, 241) !important;
+}
+
+.emaildialog .mailtitle.css-7aroya-MuiTypography-root {
+    font-size: 15px;
+    position: relative;
+}
+
+.emaildialog .mailtitle::after {
+    content: ':';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s ease all;
+}
+
+.emailcancelbtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid;
+    color: #282C36;
+    border-radius: 50px;
+    border-color: #DD6362;
+    padding: 5px 30px;
+    margin-right: 30px;
+}
+
+.emailsavebtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    font-size: 14px;
+    background: #DD6362;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 50px;
+    border-color: #DD6362;
+    padding: 5px 30px;
+    margin-right: 30px;
+}
+
+.emailsavebtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background: #fff;
+    color: #DD6362;
+}
+
+.emailcancelbtn.css-ip0s1z-MuiButtonBase-root-MuiButton-root:hover {
+    background: #DD6362;
+    color: #fff;
+}
+
+.emaildialog.css-1t4vnk2-MuiDialogContent-root {
+    border-bottom: none !important;
+    border-top: none !important;
+    padding: 15px 25px !important;
+}
+
+/*******************Care Management Hub Css*********************/
+.hubtext.css-7aroya-MuiTypography-root {
+    color: #989898;
+    padding: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.hubtext2.css-7aroya-MuiTypography-root {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+}
+
+.hubtext3.css-7aroya-MuiTypography-root {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+    color: #DD6362;
+}
+
+.hubleftbx {
+    background: #F8F8F8 !important;
+    padding: 30px !important;
+}
+
+.hubbtnsendmessege.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    background: #fff;
+    color: #282C36;
+    border-color: #0D6DAE;
+    border-radius: 10px;
+    padding: 5px 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid #0D6DAE;
+    font-size: 15px;
+}
+
+.gridbx {
+    margin: 10px !important;
+}
+
+.css-1x7vckq-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 0.5px solid #00000033 !important;
+}
+
+.css-1x7vckq-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 0.5px solid #00000033 !important;
+}
+
+.gridbx .css-uc04qm-MuiFormLabel-root-MuiInputLabel-root {
+    color: #989898;
+    font-size: 15px;
+}
+
+.gridbx .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    font-size: 14px;
+}
+
+.gridrighrbx .hubleftbx {
+    background: #F8F8F8 !important;
+    padding: 30px 15px 55px 15px !important;
+}
+
+.tablegridbx .hubtablebx {
+    background: #F8F8F8 !important;
+    padding: 30px 20px !important;
+}
+
+table.hubtable thead tr th {
+    color: #989898 !important;
+    font-size: 14px !important;
+}
+
+table.hubtable tbody tr th {
+    color: #282C36 !important;
+    font-size: 14px !important;
+}
+
+table.hubtable tbody tr td {
+    color: #282C36 !important;
+    font-size: 14px !important;
+}
+
+.hubtablebx button.added {
+    color: #0D6DAE !important;
+    font-size: 14px !important;
+}
+
+/***************Engament history css*************/
+.notesbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    position: absolute;
+    z-index: 9999999;
+    width: 90%;
+
+}
+
+.addnotesbx {}
+
+.addtextfield {
+    width: 25%;
+}
+
+.addnotesbx .addnotes.css-ip0s1z-MuiButtonBase-root-MuiButton-root {
+    background: #0D6DAE;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 6px 20px;
+    margin-left: 30px;
+    display: block;
+}
+
+.addtextfield input,
+textarea {
+    font-size: 14px !important;
+    height: 58px;
+    padding: 0 10px;
+    width: 100%;
+    background: #fff !important;
+}
+
+.addtextfield .MuiOutlinedInput-notchedOutline {
+    border-color: #fff !important;
+    outline: none !important;
+}
+
+
+.addtextfield .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #fff !important;
+    border-width: 1px !important;
+    outline: none !important;
+}
+
+.addtextfield .css-sq9qdz .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border: none !important;
+    border-color: none !important;
+}
+
+.addtextfield .css-1gy84pu-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border-color: #fff !important;
+}
+
+.addtextfield .MuiOutlinedInput-notchedOutline {
+    border-color: #fff !important;
+    outline: none !important;
+}
+
+.historymainbx {
+    background: #F8F8F8 !important;
+    padding: 20px 30px 50px 30px !important;
+    position: relative;
+}
+
+.datebx.css-1xydzx8-MuiPaper-root {
+    width: 25% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: transparent;
+    color: #282C36;
+    font-weight: 600;
+    box-shadow: none;
+}
+.historybx{
+    border-top: 1px solid #00000033;
+    padding: 30px 0 30px 30px;
+    margin: 60px 0 0 0;
+    border-left: 3px solid #006BAD;
+    overflow-y: auto;
+    max-height: 200px;
+}
+.historytxtbx.css-1xydzx8-MuiPaper-root{
+    background: #EEECED;
+    font-size: 14px;
+    color: #4A4A4A;
+    text-align: left;
+    box-shadow: none;
+    width: 75%;
+}
+/*Scroll bar nav*/
+.historybx::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.historybx::-webkit-scrollbar-track {
+    -webkit-box-shadow: auto; 
+    -webkit-border-radius: auto;
+    border-radius: 50px;
+    background:#fff;    
+}
+
+/* Handle */
+.historybx::-webkit-scrollbar-thumb {
+    -webkit-border-radius:auto;
+    border-radius:50px;
+    background:#0D6DAE; 
+    -webkit-box-shadow:auto; 
+}
+.historybx::-webkit-scrollbar-thumb:window-active {
+    background: #0D6DAE; 
+}
+.pthistorytxttop.css-7aroya-MuiTypography-root{
+    color: #006BAD;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    width: 25%;
+    border-bottom: 3px solid #DD6362;
+}
+.hubhcc{font-weight: 600 !important;}
